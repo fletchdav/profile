@@ -1,0 +1,116 @@
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #1991AA;
+}
+
+h1 {
+  font-size: 25;
+}
+
+h2 {
+  font-size: 21;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 18;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.img-profile {
+  width: 20%;
+}
+
+.img-movie {
+  width: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background: rgb(240, 240, 240);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #7d7d7d;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 30px;
+  margin: 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline li i {
+  font-size: 40px;
+  display: block;
+}
+
+/*  pourquoi ça marche pas sur le a ?*/
+
+.list-inline li a {
+  display: block;
+  padding: 0px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* comment coller le texte à l'image ? */
+table td {
+text-align: justify;
+padding: 10px;
+margin: 10px;
+font-weight: 300;
+}
+
+#movies td {
+  padding: 10px;
+
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
